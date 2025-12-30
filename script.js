@@ -2,7 +2,7 @@ const statesData = [
     {
         name: "Andhra Pradesh",
         visited: "High",
-        image: "pictures/Andhra Pradesh.jpg",
+        image: "Andhra Pradesh.jpg",
         description: "Land of temples and IT industry",
         mostVisited: [
             { name: "Tirupati Temple", location: "Tirupati", desc: "One of the richest temples in the world, dedicated to Lord Venkateswara" },
@@ -586,3 +586,4 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
