@@ -16,7 +16,7 @@ const statesData = [
     {
         name: "Arunachal Pradesh",
         visited: "Low",
-        image: "pictures/Arunachal Pradesh.jpg",
+        image: "Arunachal Pradesh.jpg",
         description: "Land of the Dawn, unexplored beauty",
         mostVisited: [
             { name: "Tawang Monastery", location: "Tawang", desc: "Largest monastery in India with stunning Himalayan views" },
@@ -30,7 +30,7 @@ const statesData = [
     {
         name: "Assam",
         visited: "Medium",
-        image: "pictures/Assam.jpg",
+        image: "Assam.jpg",
         description: "Gateway to Northeast India",
         mostVisited: [
             { name: "Kaziranga National Park", location: "Nagaon", desc: "UNESCO World Heritage site, home to Indian rhinoceros" },
@@ -44,7 +44,7 @@ const statesData = [
     {
         name: "Bihar",
         visited: "Medium",
-        image: "pictures/bihar.jpg",
+        image: "Bihar.jpg",
         description: "Cradle of Buddhism and Indian civilization",
         mostVisited: [
             { name: "Bodh Gaya", location: "Gaya", desc: "Most sacred Buddhist pilgrimage site where Buddha attained enlightenment" },
@@ -58,7 +58,7 @@ const statesData = [
     {
         name: "Chhattisgarh",
         visited: "Low",
-        image: "pictures/Chattisgarh.jpeg",
+        image: "Chattisgarh.jpeg",
         description: "Rice bowl of India, mineral-rich state",
         mostVisited: [
             { name: "Jagdalpur", location: "Bastar", desc: "Gateway to tribal culture and Chitrakoot Falls" },
@@ -72,7 +72,7 @@ const statesData = [
     {
         name: "Goa",
         visited: "High",
-        image: "pictures/Goa.webp",
+        image: "Goa.webp",
         description: "Land of beaches and Portuguese heritage",
         mostVisited: [
             { name: "Baga Beach", location: "North Goa", desc: "Popular beach with water sports and nightlife" },
@@ -86,7 +86,7 @@ const statesData = [
     {
         name: "Gujarat",
         visited: "High",
-        image: "pictures/Gujarat.jpg",
+        image: "Gujarat.jpg",
         description: "Land of Mahatma Gandhi and vibrant culture",
         mostVisited: [
             { name: "Statue of Unity", location: "Kevadia", desc: "World's tallest statue honoring Sardar Vallabhbhai Patel" },
@@ -100,7 +100,7 @@ const statesData = [
     {
         name: "Haryana",
         visited: "Medium",
-        image: "pictures/Haryana.webp",
+        image: "Haryana.webp",
         description: "Progressive state near National Capital",
         mostVisited: [
             { name: "Surajkund", location: "Faridabad", desc: "Ancient stepped well with lake and cultural fair venue" },
@@ -114,7 +114,7 @@ const statesData = [
     {
         name: "Himachal Pradesh",
         visited: "High",
-        image: "pictures/Himachal Pradesh.jpg",
+        image: "Himachal Pradesh.jpg",
         description: "Land of gods, adventure and natural beauty",
         mostVisited: [
             { name: "Shimla", location: "Shimla", desc: "Queen of the Hills with colonial architecture and mall road" },
@@ -128,7 +128,7 @@ const statesData = [
     {
         name: "Jharkhand",
         visited: "Low",
-        image: "pictures/Jharkand.jpg",
+        image: "Jharkand.jpg",
         description: "Land of waterfalls and tribal heritage",
         mostVisited: [
             { name: "Jamshedpur", location: "Jamshedpur", desc: "Industrial city with lakes and gardens" },
@@ -142,7 +142,7 @@ const statesData = [
     {
         name: "Karnataka",
         visited: "High",
-        image: "pictures/Karnataka.jpg",
+        image: "Karnataka.jpg",
         description: "IT capital and coffee country",
         mostVisited: [
             { name: "Bangalore", location: "Bangalore", desc: "Silicon Valley of India with tech parks and gardens" },
@@ -156,7 +156,7 @@ const statesData = [
     {
         name: "Kerala",
         visited: "High",
-        image: "pictures/Kerala.jpg",
+        image: "Kerala.jpg",
         description: "God's own country, tropical paradise",
         mostVisited: [
             { name: "Backwaters", location: "Alappuzha", desc: "Serene lagoons and houseboat cruises" },
@@ -170,7 +170,7 @@ const statesData = [
     {
         name: "Madhya Pradesh",
         visited: "Medium",
-        image: "pictures/Madhya Pradesh.png",
+        image: "Madhya Pradesh.png",
         description: "Heart of India, diamond and copper treasure",
         mostVisited: [
             { name: "Khajuraho Temples", location: "Khajuraho", desc: "UNESCO World Heritage site with intricate stone carvings" },
@@ -184,7 +184,7 @@ const statesData = [
     {
         name: "Maharashtra",
         visited: "High",
-        image: "pictures/Maharashtra.png",
+        image: "Maharashtra.png",
         description: "Bollywood hub and financial center",
         mostVisited: [
             { name: "Gateway of India", location: "Mumbai", desc: "Iconic monument overlooking the Arabian Sea" },
@@ -198,7 +198,7 @@ const statesData = [
     {
         name: "Manipur",
         visited: "Low",
-        image: "pictures/Manipur.png",
+        image: "Manipur.png",
         description: "Jewel of India, land of classical dance",
         mostVisited: [
             { name: "Loktak Lake", location: "Bishnupur", desc: "Floating lake with unique ecosystem and floating islands" },
@@ -212,7 +212,7 @@ const statesData = [
     {
         name: "Meghalaya",
         visited: "Medium",
-        image: "pictures/Meghalaya.png",
+        image: "Meghalaya.png",
         description: "Abode of clouds, wettest place on Earth",
         mostVisited: [
             { name: "Living Root Bridges", location: "Khasi Hills", desc: "Unique bio-engineered bridges made from tree roots" },
@@ -226,7 +226,7 @@ const statesData = [
     {
         name: "Mizoram",
         visited: "Low",
-        image: "pictures/Mizoram.jpg",
+        image: "Mizoram.jpg",
         description: "Land of blue hills, tribal cultural hub",
         mostVisited: [
             { name: "Aizawl", location: "Aizawl", desc: "Capital city on hillside with tribal markets and churches" },
@@ -240,7 +240,7 @@ const statesData = [
     {
         name: "Nagaland",
         visited: "Low",
-        image: "pictures/Nagaland.jpg",
+        image: "Nagaland.jpg",
         description: "Land of festivals and warrior tribes",
         mostVisited: [
             { name: "Kohima", location: "Kohima", desc: "Capital city with Hornbill Festival and tribal heritage" },
@@ -254,7 +254,7 @@ const statesData = [
     {
         name: "Odisha",
         visited: "Medium",
-        image: "pictures/Odisha.jpg",
+        image: "Odisha.jpg",
         description: "Land of Jagannath, beaches and Buddhist heritage",
         mostVisited: [
             { name: "Jagannath Temple", location: "Puri", desc: "Ancient Hindu temple and pilgrimage site" },
@@ -268,7 +268,7 @@ const statesData = [
     {
         name: "Punjab",
         visited: "High",
-        image: "pictures/Punjab.png",
+        image: "Punjab.png",
         description: "Land of five rivers, granary of India",
         mostVisited: [
             { name: "Golden Temple", location: "Amritsar", desc: "Holiest Sikh shrine with serene beauty" },
@@ -282,7 +282,7 @@ const statesData = [
     {
         name: "Rajasthan",
         visited: "High",
-        image: "pictures/Rajasthan.png",
+        image: "Rajasthan.png",
         description: "Land of kings, forts and desert romance",
         mostVisited: [
             { name: "Taj Mahal", location: "Agra", desc: "World's most beautiful monument, symbol of love" },
@@ -296,7 +296,7 @@ const statesData = [
     {
         name: "Sikkim",
         visited: "Medium",
-        image: "pictures/Sikkim.png",
+        image: "Sikkim.png",
         description: "Greenest state, biodiversity hotspot",
         mostVisited: [
             { name: "Kanyak", location: "North Sikkim", desc: "Beautiful lake at high altitude with scenic views" },
@@ -310,7 +310,7 @@ const statesData = [
     {
         name: "Tamil Nadu",
         visited: "High",
-        image: "pictures/Tamil Nadu.jpg",
+        image: "Tamil Nadu.jpg",
         description: "Land of temples and Dravidian culture",
         mostVisited: [
             { name: "Meenakshi Temple", location: "Madurai", desc: "Ancient temple with stunning Dravidian architecture" },
@@ -324,7 +324,7 @@ const statesData = [
     {
         name: "Telangana",
         visited: "High",
-        image: "pictures/Telangana.png",
+        image: "Telangana.png",
         description: "Land of pearls and tech innovation",
         mostVisited: [
             { name: "Charminar", location: "Hyderabad", desc: "Iconic monument of historic Hyderabad" },
@@ -338,7 +338,7 @@ const statesData = [
     {
         name: "Tripura",
         visited: "Low",
-        image: "pictures/Tripura.jpg",
+        image: "Tripura.jpg",
         description: "Land of palaces and tribal culture",
         mostVisited: [
             { name: "Ujjayanta Palace", location: "Agartala", desc: "Royal palace turned museum with architectural beauty" },
@@ -352,7 +352,7 @@ const statesData = [
     {
         name: "Uttar Pradesh",
         visited: "High",
-        image: "pictures/Uttar Pradesh.png",
+        image: "Uttar Pradesh.png",
         description: "Home of Taj Mahal and Hindu temples",
         mostVisited: [
             { name: "Taj Mahal", location: "Agra", desc: "World's most beautiful monument, UNESCO World Heritage" },
@@ -366,7 +366,7 @@ const statesData = [
     {
         name: "Uttarkhand",
         visited: "Medium",
-        image: "pictures/Uttarkhand.png",
+        image: "Uttarkhand.png",
         description: "Land of gods, adventure and spirituality",
         mostVisited: [
             { name: "Rishikesh", location: "Dehradun", desc: "Yoga capital and sacred pilgrimage site on Ganges" },
@@ -380,7 +380,7 @@ const statesData = [
     {
         name: "West Bengal",
         visited: "Medium",
-        image: "pictures/West Bengal.png",
+        image: "West Bengal.png",
         description: "Cultural gem, Darjeeling tea country",
         mostVisited: [
             { name: "Darjeeling", location: "Darjeeling", desc: "Hill station famous for tea gardens and toy train" },
@@ -586,4 +586,5 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
