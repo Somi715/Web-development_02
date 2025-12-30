@@ -419,7 +419,7 @@ function renderHomePage() {
 // CREATE STATE CARD
 function createStateCard(state) {
     return `
-        <div class="state-card" onclick="viewState('${state.name}')">
+        <div class="state-card" onclick="openStatePage('${state.name}')">
             <img src="${state.image}" alt="${state.name}" class="state-image" onerror="this.style.background='linear-gradient(135deg, #004E89, #FF6B35)'">
             <div class="state-info">
                 <div class="state-name">${state.name}</div>
@@ -584,4 +584,5 @@ document.addEventListener('DOMContentLoaded', () => {
             searchStates();
         }
     });
+
 });
