@@ -1385,11 +1385,3 @@ footer {
     color: rgba(255, 255, 255, 0.7) !important;
 }
 
-.state-card {
-    cursor: pointer;
-    transition: transform 0.2s;
-}
-
-.state-card:hover {
-    transform: scale(1.02);
-}
