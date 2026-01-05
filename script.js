@@ -400,20 +400,58 @@ document.addEventListener('DOMContentLoaded', () => {
 });
 
 // RENDER HOME PAGE
+
 function renderHomePage() {
     const mostVisited = statesData.filter(s => s.visited === 'High');
     const mediumVisited = statesData.filter(s => s.visited === 'Medium');
     const leastVisited = statesData.filter(s => s.visited === 'Low');
 
-    document.getElementById('mostVisitedGrid').innerHTML = mostVisited
-        .map(state => createStateCard(state))
-        .join('');
-    document.getElementById('mediumVisitedGrid').innerHTML = mediumVisited
-        .map(state => createStateCard(state))
-        .join('');
-    document.getElementById('leastVisitedGrid').innerHTML = leastVisited
-        .map(state => createStateCard(state))
-        .join('');
+    const mainContent = document.getElementById('mainContent');
+    mainContent.innerHTML = `
+        <h1>Explore States</h1>
+        
+        <!-- Most Visited Section -->
+        <section>
+            <h2>Most Visited</h2>
+            <div class="grid">
+                ${mostVisited.map(state => `
+                    <div class="state-card" onclick="openStatePage('${state.name}')">
+                        <img src="${state.image}" alt="${state.name}">
+                        <h3>${state.name}</h3>
+                        <p>${state.description}</p>
+                    </div>
+                `).join('')}
+            </div>
+        </section>
+
+        <!-- Medium Visited Section -->
+        <section>
+            <h2>Medium Visited</h2>
+            <div class="grid">
+                ${mediumVisited.map(state => `
+                    <div class="state-card" onclick="openStatePage('${state.name}')">
+                        <img src="${state.image}" alt="${state.name}">
+                        <h3>${state.name}</h3>
+                        <p>${state.description}</p>
+                    </div>
+                `).join('')}
+            </div>
+        </section>
+
+        <!-- Least Visited Section -->
+        <section>
+            <h2>Least Visited</h2>
+            <div class="grid">
+                ${leastVisited.map(state => `
+                    <div class="state-card" onclick="openStatePage('${state.name}')">
+                        <img src="${state.image}" alt="${state.name}">
+                        <h3>${state.name}</h3>
+                        <p>${state.description}</p>
+                    </div>
+                `).join('')}
+            </div>
+        </section>
+    `;
 }
 
 // CREATE STATE CARD
@@ -586,6 +624,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
