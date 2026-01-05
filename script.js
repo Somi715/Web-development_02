@@ -399,6 +399,15 @@ document.addEventListener('DOMContentLoaded', () => {
     createStatePages();
 });
 
+function openStatePage(stateName) {
+    // This matches exactly what your search does
+    window.location.href = `/states/${stateName.replace(/\s+/g, '-').toLowerCase()}.html`;
+    
+    // OR if your pages are `/state-name.html` (test which works):
+    // window.location.href = `/${stateName.replace(/\s+/g, '-').toLowerCase()}.html`;
+}
+
+
 // RENDER HOME PAGE
 
 function renderHomePage() {
@@ -624,6 +633,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
