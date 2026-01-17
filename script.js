@@ -366,7 +366,7 @@ const statesData = [
     {
         name: "Uttarkhand",
         visited: "Medium",
-        image: "Uttarkhand.png",
+        image: "Uttarakhand.png",
         description: "Land of gods, adventure and spirituality",
         mostVisited: [
             { name: "Rishikesh", location: "Dehradun", desc: "Yoga capital and sacred pilgrimage site on Ganges" },
@@ -597,6 +597,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
 });
+
 
 
 
